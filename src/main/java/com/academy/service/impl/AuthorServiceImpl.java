@@ -16,4 +16,10 @@ public class AuthorServiceImpl implements AuthorService {
   public List<Author> getAll() {
     return authorRepository.findAll();
   }
+
+  @Override
+  public Author getById(Integer id) {
+
+    return authorRepository.findById(id).orElse(new Author());
+  }
 }

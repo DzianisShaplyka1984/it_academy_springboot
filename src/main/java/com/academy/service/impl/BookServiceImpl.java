@@ -16,4 +16,14 @@ public class BookServiceImpl implements BookService {
   public List<Book> getAll() {
     return bookRepository.findAll();
   }
+
+  @Override
+  public Book getById(Integer id) {
+    return bookRepository.getById(id);
+  }
+
+  @Override
+  public void save(Book book) {
+    bookRepository.saveAndFlush(book);
+  }
 }

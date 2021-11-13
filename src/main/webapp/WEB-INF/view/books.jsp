@@ -7,8 +7,10 @@
 <body>
 
 <c:forEach items="${books}" var="book">
-    ${book.id} - ${book.title} - ${book.author.name} <br>
-
+    <a href="<c:url value="/book?id=${book.id}"/>">${book.id} - ${book.title}</a> <br>
 </c:forEach>
+
+<a href="<c:url value="/authors"/>"> Authors</a>
+<a href="<c:url value="/showCreateBook"/>"> Create Book</a>
 </body>
 </html>
