@@ -1,6 +1,6 @@
 package com.academy.service.impl;
 
-import com.academy.model.dao.BookRepository;
+import com.academy.model.repository.BookRepository;
 import com.academy.model.entity.Book;
 import com.academy.service.BookService;
 import java.util.List;

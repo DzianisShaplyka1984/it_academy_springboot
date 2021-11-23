@@ -1,4 +1,4 @@
-package com.academy.model.dao;
+package com.academy.model.repository;
 
 import com.academy.model.entity.Author;
 import org.springframework.data.jpa.repository.JpaRepository;

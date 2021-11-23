@@ -1,6 +1,6 @@
 package com.academy.service.impl;
 
-import com.academy.model.dao.AuthorRepository;
+import com.academy.model.repository.AuthorRepository;
 import com.academy.model.entity.Author;
 import com.academy.service.AuthorService;
 import java.util.List;
